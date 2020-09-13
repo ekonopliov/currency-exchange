@@ -3,7 +3,7 @@ Reads data from .csv, exchanges, validates
 
 # Build and run
 
-**Maven and local** At root directory:<br>
+**Maven and local**<br>
 Preconditions: Maven 3.6.3+, OpenJDK11 (and all PATHs)<br><br>
 At root directory:<br>
 - `mvn clean install`<br>
@@ -11,7 +11,7 @@ At root directory:<br>
 <br>
 
 **Maven and Docker container**<br>
-Preconditions: Docker up and running, Maven 3.6.3+, OpenJDK11 (and all PATHs)<br><br>
+Preconditions: Docker up and running, Maven 3.6.3+, OpenJDK11 (and all PATHs)<br>
 - uncomment pom.xml build Spotify and dependency plugins<br>
 
 At root directory:<br>
