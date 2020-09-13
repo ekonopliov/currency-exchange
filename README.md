@@ -9,6 +9,7 @@ At root directory:<br>
 - `mvn clean install`<br>
 - `mvn spring-boot:run`<br>
 <br>
+
 **Maven and Docker container**<br>
 Preconditions: Docker up and running, Maven 3.6.3+, OpenJDK11 (and all PATHs)<br><br>
 - uncomment pom.xml build Spotify and dependency plugins<br>
