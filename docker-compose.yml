@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+
+  currency-exchange:
+    image: kono/currency-exchange:0.0.1-SNAPSHOT
+    container_name: currency-exchange
+    ports:
+      - 8888:8888
