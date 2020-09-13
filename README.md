@@ -4,16 +4,17 @@ Reads data from .csv, exchanges, validates
 # Build and run
 
 **Maven and local** At root directory:<br>
-Preconditions: Maven 3.6.3+, OpenJDK11 (and all PATHs)<br>
-`mvn clean install`<br>
-`mvn spring-boot:run`<br>
+Preconditions: Maven 3.6.3+, OpenJDK11 (and all PATHs)<br><br>
+At root directory:<br>
+- `mvn clean install`<br>
+- `mvn spring-boot:run`<br>
 <br>
 **Maven and Docker container**<br>
-Preconditions: Docker up and running, Maven 3.6.3+, OpenJDK11 (and all PATHs)<br>
+Preconditions: Docker up and running, Maven 3.6.3+, OpenJDK11 (and all PATHs)<br><br>
+- uncomment pom.xml build Spotify and dependency plugins<br>
 At root directory:<br>
-uncomment pom.xml build Spotify and dependency plugins<br>
-`mvn clean install`<br>
-`docker-compose up -d`<br>
+- `mvn clean install`<br>
+- `docker-compose up -d`<br>
 
 # Requests
 By default application exposes on :8888
